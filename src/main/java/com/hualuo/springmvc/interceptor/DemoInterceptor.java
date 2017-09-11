@@ -32,7 +32,7 @@ public class DemoInterceptor extends HandlerInterceptorAdapter {
 		request.removeAttribute(START_TIME);
 		long endTime = System.currentTimeMillis();
 		long handlingTime = endTime - startTime;
-		System.out.println("handle time is: " + handlingTime + "ms");
+		System.out.println("处理时间: " + handlingTime + "ms");
 		request.setAttribute(HANDLING_TIME, handlingTime);
 	}
 
