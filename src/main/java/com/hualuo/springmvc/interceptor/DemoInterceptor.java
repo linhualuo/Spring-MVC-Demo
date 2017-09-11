@@ -8,7 +8,6 @@ import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
 /**
  * @author Joseph 
- * @date 2017年9月10日  下午3:54:33
  *
  */
 public class DemoInterceptor extends HandlerInterceptorAdapter {

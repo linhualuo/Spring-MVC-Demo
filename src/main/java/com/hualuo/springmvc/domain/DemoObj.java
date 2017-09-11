@@ -2,7 +2,6 @@ package com.hualuo.springmvc.domain;
 
 /**
  * @author Joseph 
- * @date 2017年9月10日  下午2:50:55
  *
  */
 public class DemoObj {

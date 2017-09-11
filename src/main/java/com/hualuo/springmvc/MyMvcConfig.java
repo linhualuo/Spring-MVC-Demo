@@ -13,8 +13,7 @@ import org.springframework.web.servlet.view.JstlView;
 import com.hualuo.springmvc.interceptor.DemoInterceptor;
 
 /**
- * @author Joseph 
- * @date 2017年9月9日  下午7:28:22
+ * @author Joseph
  *
  */
 @Configuration

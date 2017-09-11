@@ -11,7 +11,6 @@ import org.springframework.web.servlet.DispatcherServlet;
 
 /**
  * @author Joseph 
- * @date 2017年9月9日  下午7:37:33
  *
  */
 public class WebInitializer implements WebApplicationInitializer {
