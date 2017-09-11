@@ -7,7 +7,6 @@ import com.hualuo.springmvc.domain.DemoObj;
 
 /**
  * @author Joseph 
- * @date 2017年9月10日  下午3:17:20
  *
  */
 @RestController

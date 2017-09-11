@@ -1,18 +1,15 @@
 package com.hualuo.springmvc.web.ch4_3;
 
-import javax.servlet.http.HttpServletRequest;
-
-import org.springframework.http.HttpRequest;
+import com.hualuo.springmvc.domain.DemoObj;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.hualuo.springmvc.domain.DemoObj;
+import javax.servlet.http.HttpServletRequest;
 
 /**
  * @author Joseph 
- * @date 2017年9月10日  下午2:54:06
  *
  */
 @Controller

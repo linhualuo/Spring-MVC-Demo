@@ -1,10 +1,10 @@
 package com.hualuo.springmvc.interceptor;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 /**
  * @author Joseph 
@@ -32,7 +32,7 @@ public class DemoInterceptor extends HandlerInterceptorAdapter {
 		request.removeAttribute(START_TIME);
 		long endTime = System.currentTimeMillis();
 		long handlingTime = endTime - startTime;
-		System.out.println("本次请求时间为： " + handlingTime + "ms");
+		System.out.println("handle time is: " + handlingTime + "ms");
 		request.setAttribute(HANDLING_TIME, handlingTime);
 	}
 
